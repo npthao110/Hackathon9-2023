@@ -3,14 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 import pickle
-import os
-from flask_cors import CORS
 
-
-# Add the following line to allow CORS
-from flask import Flask
-app = Flask(__name__)
-CORS(app)
 
 # Load the model
 model_filename = 'workfile'
